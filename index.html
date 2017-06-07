@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>PRIMEBLOCK|Home</title>
+  <title>BLOCKPRIME|Home</title>
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -165,11 +165,11 @@
       <div class="col-4">
         <div class="box orange conts">
         <div id="contactform">
-          <form method="post" action="sendmail.php">
+          <!--<form method="post" action="sendmail.php">-->
 
-          <label class="cont-top">Contact Us</label>
+               <label class="cont-top">Contact Us</label>
         
-            <label for="name">Name</label>
+            <!--<label for="name">Name</label>
             <input class="cont-bod" type="text" id="name" name="name" placeholder="Your Name">
             
             <label for="email">Email</label>
@@ -180,7 +180,12 @@
             
             <input class="submit-button" id="submit" name="submit" type="submit" value="Submit">
         
-          </form>
+          </form>-->
+              <form method="POST" action="http://formspree.io/wpsmith87@gmail.com">
+               <input class="cont-bod" type="email" name="email" placeholder="Your email">
+               <textarea class="cont-bod" name="message" placeholder="Your message"></textarea>
+               <button class="submit-button" type="submit">Send</button>
+             </form>
           </div>
         </div>
       </div>
