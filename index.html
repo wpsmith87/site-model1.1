@@ -30,10 +30,12 @@
       <a href="#home" class="logo" data-scroll>BLOCKPRIME</a>
       <nav class="nav-collapse">
         <ul>
-          <li class="menu-item"><a href="#home" data-scroll>Home</a></li>
-          <li class="menu-item"><a href="#indices" data-scroll>Indices</a></li>
+          <li class="menu-item"><a href="#home"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a></li>
+          <li class="menu-item"><a href="#tokens" data-scroll>Tokens</a></li>
+          <li class="menu-item"><a href="#banking" data-scroll>Banking</a></li>
+          <li class="menu-item"><a href="#learn" data-scroll>Learn</a></li>
           <li class="menu-item"><a href="#contact" data-scroll>Contact Us</a></li>
-          <li class="menu-item"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+          <li class="menu-item"><a href="#"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i></a></li>
         </ul>
       </nav>
   </header>
@@ -62,11 +64,43 @@
         <div class="box black"></div>
       </div>
     </div> -->
+    <main role="main">
+  <section id="tokens">
+  <div class="row">
+      <div class="col-4">
+        <div class="box orange conts"></div>
+      </div>
+      <div class="col-4">
+        <div class="box orange conts"></div>
+      </div>
+      <div class="col-4">
+        <div class="box orange conts"></div>
+      </div>
+    </div>
+
+</section>
+  </main>
+  <main role="main">
+  <section id="banking">
+  <div class="row">
+      <div class="col-3">
+        <div class="box orange"></div>
+      </div>
+      <div class="col-3">
+        <div class="box blue"></div>
+      </div>
+      <div class="col-3">
+        <div class="box green"></div>
+      </div>
+      <div class="col-3">
+        <div class="box black"></div>
+      </div>
+    </div>
   </section>
-    </main>
+  </main>
 
     <main role="main">
-<section id="indices">
+<section id="learn">
 <div class="row">
        <div class="col-6">
         <div class="box orange"></div>
@@ -181,10 +215,12 @@
             <input class="submit-button" id="submit" name="submit" type="submit" value="Submit">
         
           </form>-->
-              <form method="POST" action="http://formspree.io/wpsmith87@gmail.com">
-               <input class="cont-bod" type="email" name="email" placeholder="Your email">
+              <form class="cform" action="https://formspree.io/wpsmith87@gmail.com" 
+                    method="POST">
+               <input class="cont-bod" type="email" name="_replyto" placeholder="Your email">
                <textarea class="cont-bod" name="message" placeholder="Your message"></textarea>
-               <button class="submit-button" type="submit">Send</button>
+               <!--<button class="submit-button" type="submit">Send</button>-->
+                <input class="submit-button" type="submit" value="Send">
              </form>
           </div>
         </div>
