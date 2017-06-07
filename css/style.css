@@ -389,17 +389,6 @@ header {
   content: "\78"; /* Close icon */
 }
 
-a .icon-img {
-  height: 30px;
-  width: 30px;
-  margin-top: 13px;
-  margin-bottom: 5px;
-  margin-left: 10px;
-  /*border-radius: 50%;*/
-  vertical-align: middle;
-  float: left;
-  /*border: 1px solid black;*/
-}
 
 .container {
   padding-top: 20px;
