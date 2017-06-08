@@ -12,31 +12,41 @@ main .row {
   padding-top: 30px;
 }
 
-.box:hover {
+/*.box:hover {
   -webkit-transition: background 0.1s;
     transition: background 0.1s; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
+}*/
 
 .black {
-  background-color: #F4F6F6;
+  background-color: transparent;
   
 }
 
 .green {
-  background-color: #F4F6F6;
+  background-color: transparent;
 }
 
 .orange {
-  background-color: #F4F6F6;
+  background-color: transparent;
 }
 
 .blue {
-  background-color: #F4F6F6;
+  background-color: transparent;
 }
 
-.bank {
-height: 600px;	
+.upper {
+background-color: transparent;
+}
+
+.hoves{
+  background-color: transparent;
+}
+
+.hoves:hover {
+  -webkit-transition: background 0.1s;
+    transition: background 0.1s; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .small {
@@ -54,12 +64,12 @@ padding-top: 10px;
 }
 
 .conts {
-	height: 450px;
+	height: 400px;
 }
 
 .foot {
   height: 90px;
-  background-color: none;
+  background-color: #fff;
   padding-top: 20px;
 
 }
