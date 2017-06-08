@@ -75,13 +75,14 @@ div #ether {
   /*border: 1px solid black;*/
   background-image: url('images/ethereum1.1.svg');
   background-repeat: no-repeat;
+  margin-top: 70px;
 }
 
 div #ether:hover {
 background-image: url('images/ethereum1.2.svg');
 background-repeat: no-repeat;
 }
-}
+
 
 /* ------------------------------------------
   RESPONSIVE NAV STYLES
@@ -282,6 +283,7 @@ header {
 .logo-con i {
   padding-top: 70px;
 }
+
 
 .logo-con:hover {
   color: #34495E;
