@@ -36,10 +36,16 @@ main .row {
 }
 
 .upper {
+height: 600px;  
 background-color: transparent;
+padding-top: 100px;
 }
 
-.hoves{
+.hoves {
+  background-color: transparent;
+}
+
+.hovec {
   background-color: transparent;
 }
 
@@ -47,6 +53,13 @@ background-color: transparent;
   -webkit-transition: background 0.1s;
     transition: background 0.1s; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.hovec:hover {
+  -webkit-transition: background 0.1s;
+    transition: background 0.1s; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #AEB6BF;
 }
 
 .small {
