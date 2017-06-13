@@ -60,6 +60,8 @@ padding-top: 100px;
     transition: background 0.1s; 
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     background-color: #AEB6BF;
+    border: 1px solid;
+    border-color: #34495E;
 }
 
 .small {

@@ -217,7 +217,8 @@ input, textarea {
   width: 200px;
   height:27px;
   background:#fff;
-  border:none;
+  border:1px solid;
+  border-color: #34495E;
   padding-left:10px;
   margin-top: 10px;
   font-size:0.9em;
@@ -244,6 +245,11 @@ textarea {
     height: 38px;
     margin: auto;
     margin-top: 8px;
+    background-color: #fff;
+    border: 1px solid;
+    border-color: #34495E;
+    font-size: 16px;
+    color: #34495E;
 }
 .submit-button:hover {
   -webkit-transition: background 0.1s;
