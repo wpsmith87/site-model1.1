@@ -214,7 +214,7 @@ label {
 
 
 input, textarea {
-  width: 200px;
+  width: 220px;
   height:27px;
   background:#fff;
   border:1px solid;
@@ -223,7 +223,6 @@ input, textarea {
   margin-top: 10px;
   font-size:0.9em;
   color:#3a3a3a;
-  box-shadow: 
 }
 
 textarea {
@@ -260,7 +259,7 @@ textarea {
 }
 
 .cform {
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 /* ------------------------------------------
@@ -413,10 +412,11 @@ header {
   border-top: 1px solid white;
   text-decoration: none;
   background: #fff;
-  padding: 0.7em 1em;
+  padding: 2em 1.2em;
   color: #34495E;
   width: 100%;
   float: left;
+  font-size: 12px;
 }
 
 .nav-collapse a:active,
@@ -564,6 +564,15 @@ header {
     background-color: #fff;
 }
 
+
+#wheresat h2 {
+    font-weight: normal;
+    font-size: 40px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+
 #bank h2 {
     font-weight: normal;
     font-size: 40px;
@@ -590,7 +599,9 @@ header {
  * --------------------------------------------- */
 
 #roadmap {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ij4KPHJlY3Qgd2lkdGg9IjYiIGhlaWdodD0iNiIgZmlsbD0iI2VlZWVlZSI+PC9yZWN0Pgo8ZyBpZD0iYyI+CjxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjMiIGZpbGw9IiNlNmU2ZTYiPjwvcmVjdD4KPHJlY3QgeT0iMSIgd2lkdGg9IjMiIGhlaWdodD0iMiIgZmlsbD0iI2Q4ZDhkOCI+PC9yZWN0Pgo8L2c+Cjx1c2UgeGxpbms6aHJlZj0iI2MiIHg9IjMiIHk9IjMiPjwvdXNlPgo8L3N2Zz4=");;
+ /* background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ij4KPHJlY3Qgd2lkdGg9IjYiIGhlaWdodD0iNiIgZmlsbD0iI2VlZWVlZSI+PC9yZWN0Pgo8ZyBpZD0iYyI+CjxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjMiIGZpbGw9IiNlNmU2ZTYiPjwvcmVjdD4KPHJlY3QgeT0iMSIgd2lkdGg9IjMiIGhlaWdodD0iMiIgZmlsbD0iI2Q4ZDhkOCI+PC9yZWN0Pgo8L2c+Cjx1c2UgeGxpbms6aHJlZj0iI2MiIHg9IjMiIHk9IjMiPjwvdXNlPgo8L3N2Zz4=");;*/
+
+background-color: #AEB6BF;
 }
 
 #roadmap h2 {
@@ -698,7 +709,7 @@ header {
     color: #ffffff !important;
 }
 .timeline-badge a:hover {
-    color: #dcdcdc !important;
+    color: #34495E !important;
 }
 .timeline-title {
     margin-top: 0;
@@ -707,7 +718,7 @@ header {
 .timeline-heading h4 {
     font-weight: 400;
     padding: 0 15px;
-    color: #4679bd;
+    color: #34495E;
 }
 .timeline-body > p, .timeline-body > ul {
     padding: 10px 15px;
