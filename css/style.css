@@ -67,15 +67,16 @@ div .icone-img {
 }
 
 div #ether {
-  height: 180px;
-  width: 180px;
+  height: 120px;
+  width: 160px;
   margin: auto;
   /*border-radius: 50%;*/
   vertical-align: middle;
   /*border: 1px solid black;*/
   background-image: url('images/ethereum1.1.svg');
   background-repeat: no-repeat;
-  margin-top: 70px;
+  margin-top: 20px;
+  margin-bottom: 8px;
 }
 
 div #ether:hover {
