@@ -13,8 +13,8 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #343642;
+  font-family: 'Dosis', sans-serif;
+  color: #34495E;
   background-color: #ffffff;
 }
 
@@ -186,13 +186,14 @@ Content block
   position: fixed;
   top: 0;
   right: 0;
-  height: 44px;
-  width: 44px;
+  height: 20px;
+  width: 60px;
+  font-size: 11px;
+  padding-top: 8px;
   /* image replacement */
   overflow: hidden;
-  text-indent: 100%;
   white-space: nowrap;
-  color: transparent;
+  color: #343642;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
